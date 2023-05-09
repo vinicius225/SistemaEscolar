@@ -1,0 +1,12 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.Data\bin\Debug\net6.0\SistemaEscolar.Infra.Data.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.Data\bin\Debug\net6.0\SistemaEscolar.Infra.Data.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.Data\bin\Debug\net6.0\SistemaEscolar.Infra.Data.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.Data\obj\Debug\net6.0\SistemaEscolar.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.Data\obj\Debug\net6.0\SistemaEscolar.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.Data\obj\Debug\net6.0\SistemaEscolar.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.Data\obj\Debug\net6.0\SistemaEscolar.Infra.Data.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.Data\obj\Debug\net6.0\SistemaEscolar.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.Data\obj\Debug\net6.0\SistemaEscolar.Infra.Data.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.Data\obj\Debug\net6.0\refint\SistemaEscolar.Infra.Data.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.Data\obj\Debug\net6.0\SistemaEscolar.Infra.Data.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.Data\obj\Debug\net6.0\ref\SistemaEscolar.Infra.Data.dll

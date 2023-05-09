@@ -1,0 +1,12 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\bin\Debug\net6.0\SistemaEscolar.Aplication.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\bin\Debug\net6.0\SistemaEscolar.Aplication.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\bin\Debug\net6.0\SistemaEscolar.Aplication.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\obj\Debug\net6.0\SistemaEscolar.Aplication.csproj.AssemblyReference.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\obj\Debug\net6.0\SistemaEscolar.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\obj\Debug\net6.0\SistemaEscolar.Aplication.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\obj\Debug\net6.0\SistemaEscolar.Aplication.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\obj\Debug\net6.0\SistemaEscolar.Aplication.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\obj\Debug\net6.0\SistemaEscolar.Aplication.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\obj\Debug\net6.0\refint\SistemaEscolar.Aplication.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\obj\Debug\net6.0\SistemaEscolar.Aplication.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\obj\Debug\net6.0\ref\SistemaEscolar.Aplication.dll

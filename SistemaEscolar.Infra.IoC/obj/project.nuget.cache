@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+yVL6G/Q/X1CFv4zJbzUlchymyCRseUkWYtVnN74iaCqIcfHMD/JupbfbGW+P0hBjoCFfYXPxWHH47x884U4jQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\C#\\SistemaEscolar\\SistemaEscolar.Infra.IoC\\SistemaEscolar.Infra.IoC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinic\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
