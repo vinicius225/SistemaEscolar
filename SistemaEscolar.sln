@@ -15,7 +15,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SisatemaEscolar.API", "Sisa
 		{96CFB35C-8010-40B0-93F3-4DAA4098A075} = {96CFB35C-8010-40B0-93F3-4DAA4098A075}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaEscolar.Aplication", "SistemaEscolar.Aplication\SistemaEscolar.Aplication.csproj", "{96CFB35C-8010-40B0-93F3-4DAA4098A075}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaEscolar.Aplication", "SistemaEscolar.Aplication\SistemaEscolar.Aplication.csproj", "{96CFB35C-8010-40B0-93F3-4DAA4098A075}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{CA8148C9-5DB7-4932-89F7-2E7336F24447}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
