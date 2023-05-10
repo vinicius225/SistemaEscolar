@@ -102,7 +102,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\C#\\SistemaEscolar\\SistemaEscolar.Domain\\SistemaEscolar.Domain.csproj": {
+                "projectPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\C#\\SistemaEscolar\\SistemaEscolar.Domain\\SistemaEscolar.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -23,6 +23,7 @@ namespace SisatemaEscolar.API.Controllers
         {
             return Ok(GenerateToken(autenticacao));
         }
+
         [HttpGet]
         [Authorize]
         [Route("Teste")]
