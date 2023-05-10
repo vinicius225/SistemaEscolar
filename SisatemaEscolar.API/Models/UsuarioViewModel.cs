@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SistemaEscolar.Domain.Entities;
 
-namespace SistemaEscolar.Domain.Entities
+namespace SisatemaEscolar.API.Models
 {
-    public class Usuario
+    public class UsuarioViewModel 
     {
         public int Id { get; set; }
         public string Nome { get; set; }
@@ -20,6 +16,8 @@ namespace SistemaEscolar.Domain.Entities
         public string Estado { get; set; }
         public string Cidade { get; set; }
         public bool Status { get; set; }
-        public List<Perfil> Perfil { get; set; } = new List<Perfil>();
+        public int[] Perfis { get; set; }
+
+
     }
 }

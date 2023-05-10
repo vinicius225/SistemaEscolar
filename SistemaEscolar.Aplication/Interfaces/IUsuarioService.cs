@@ -12,5 +12,8 @@ namespace SistemaEscolar.Aplication.Interfaces
         Task AdicionarAsync(Usuario usuario);
         Task AtualizarAssync(Usuario usuario);
         Task DeletarAssync(int id);
+        Task<IEnumerable<Usuario>> ListarUsuarios();
+        Task<Usuario> ListarUsuarioPorId(int id);
+        string GerarSenhaToken(string senha);
     }
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using Dapper;
 using System.Threading.Tasks;
+using Microsoft.Win32.SafeHandles;
 
 namespace SistemaEscolar.Infra.Data.Repository
 {
@@ -19,7 +20,7 @@ namespace SistemaEscolar.Infra.Data.Repository
             _conectionFactory = conectionFactory;
         }
 
-        public Task AdicionarAsync(Usuario usuario)
+        public async Task AdicionarAsync(Usuario usuario)
         {
             using (var conn = new SqlConnection(_conectionFactory.ConectionDb()))
             {
@@ -40,17 +41,52 @@ namespace SistemaEscolar.Infra.Data.Repository
                 conn.ExecuteAsync(query);
             }
             
-            throw new NotImplementedException();
         }
 
-        public Task AtualizarAssync(Usuario usuario)
+        public async Task AtualizarAssync(Usuario usuario)
         {
-            throw new NotImplementedException();
+            using (var conn = new SqlConnection(_conectionFactory.ConectionDb()))
+            {
+                conn.Open();
+                string query = $@"update Usuario set Nome ='{usuario.Nome}',
+                                Email = '{usuario.Email}',
+                                Senha ='{usuario.Senha}',
+                                DataNascimento ='{usuario.DataNascimento}',
+                                Contato = '{usuario.Contato}',
+                                Endereco = '{usuario.Endereco}',
+                                NumeroEndereco = '{usuario.NumeroEndereco}',
+                                CEP = '{usuario.CEP}',
+                                Estado = '{usuario.Estado}',
+                                Cidade = '{usuario.Cidade}',
+                                Status = '{usuario.Status}')
+)";
+                conn.ExecuteAsync(query);
+            }
         }
 
         public Task DeletarAssync(int id)
         {
             throw new NotImplementedException();
+        }
+
+        public async Task<Usuario> ListarUsuarioPorId(int id)
+        {
+            using (var conn = new SqlConnection(_conectionFactory.ConectionDb()))
+            {
+                string sql = @$"select * from Usuario where Id = {id}";
+
+                return conn.QueryAsync<Usuario>(sql).Result.FirstOrDefault();
+            }
+        }
+
+        public Task<IEnumerable<Usuario>> ListarUsuarios()
+        {
+            using (var conn = new SqlConnection(_conectionFactory.ConectionDb()))
+            {
+                string sql = @$"select * from Usuario ";
+
+                return conn.QueryAsync<Usuario>(sql);
+            }
         }
     }
 }
