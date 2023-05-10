@@ -9,11 +9,22 @@ using System.Threading.Tasks;
 
 namespace SistemaEscolar.Infra.Data.Repository
 {
-    internal class UsuarioRepository : IUsuarioRepository
+    public class UsuarioRepository : IUsuarioRepository
     {
+        private readonly IConectionFactory _conectionFactory;
+
+        public UsuarioRepository(IConectionFactory conectionFactory)
+        {
+            _conectionFactory = conectionFactory;
+        }
+
         public Task AdicionarAsync(Usuario usuario)
         {
-            var conn = (using SqlConnection)
+            using (var conn = new SqlConnection(_conectionFactory.ConectionDb()))
+            {
+                conn.Open();
+            }
+            
             throw new NotImplementedException();
         }
 

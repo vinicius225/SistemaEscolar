@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace SistemaEscolar.Domain.Entities
 {
-    internal class Tela_Perfil
+    public class Tela_Perfil
     {
+        public int IdPerfil { get; set; }
+        public int IdTela { get; set; }
     }
 }

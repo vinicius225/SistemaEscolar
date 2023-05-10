@@ -10,3 +10,6 @@ C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplic
 C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\obj\Debug\net6.0\refint\SistemaEscolar.Aplication.dll
 C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\obj\Debug\net6.0\SistemaEscolar.Aplication.pdb
 C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\obj\Debug\net6.0\ref\SistemaEscolar.Aplication.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\bin\Debug\net6.0\SistemaEscolar.Domain.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\bin\Debug\net6.0\SistemaEscolar.Domain.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Aplication\obj\Debug\net6.0\SistemaEscolar.Aplication.csproj.CopyComplete

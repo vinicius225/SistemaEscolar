@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "SistemaEscolar.Aplication/1.0.0": {
+        "dependencies": {
+          "SistemaEscolar.Domain": "1.0.0"
+        },
         "runtime": {
           "SistemaEscolar.Aplication.dll": {}
+        }
+      },
+      "SistemaEscolar.Domain/1.0.0": {
+        "runtime": {
+          "SistemaEscolar.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "SistemaEscolar.Aplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SistemaEscolar.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
