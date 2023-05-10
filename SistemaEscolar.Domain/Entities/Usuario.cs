@@ -19,6 +19,6 @@ namespace SistemaEscolar.Domain.Entities
         public string CEP { get; set; }
         public string Estado { get; set; }
         public string Cidade { get; set; }
-        public bool status { get; set; }
+        public bool Status { get; set; }
     }
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QJWoJT+3igI674uFyHdQ6N1NHLFMxwgEfsNCSs9GDOttq9Z3wzjWxQYclT5qN+4PY9nmzdqLh4CJ+jJS3RQD7g==",
+  "dgSpecHash": "afy4mX9J4BZlFHLhEGQ+c9L0AkocntVeFRZ46DQP6MNJXQXVK2veCULkr0JUDOOnFe+9DIhDCbtiRGaQ94l6Qg==",
   "success": true,
   "projectFilePath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\C#\\SistemaEscolar\\SistemaEscolar.Infra.Data\\SistemaEscolar.Infra.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vinic\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

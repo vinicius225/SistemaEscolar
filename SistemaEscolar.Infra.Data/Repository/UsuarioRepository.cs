@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
+using Dapper;
 using System.Threading.Tasks;
 
 namespace SistemaEscolar.Infra.Data.Repository
@@ -23,6 +24,20 @@ namespace SistemaEscolar.Infra.Data.Repository
             using (var conn = new SqlConnection(_conectionFactory.ConectionDb()))
             {
                 conn.Open();
+                string query = $@"insert into Usuario values = (
+                                '{usuario.Nome}',
+                                '{usuario.Email}',
+                                '{usuario.Senha}',
+                                '{usuario.DataNascimento}',
+                                '{usuario.Contato}',
+                                '{usuario.Endereco}',
+                                '{usuario.NumeroEndereco}',
+                                '{usuario.CEP}',
+                                '{usuario.Estado}',
+                                '{usuario.Cidade}',
+                                '{usuario.Status}')
+)";
+                conn.ExecuteAsync(query);
             }
             
             throw new NotImplementedException();
