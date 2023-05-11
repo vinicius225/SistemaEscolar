@@ -22,12 +22,14 @@ namespace SistemaEscolar.Infra.Data.Repository
 
         public async Task AdicionarAsync(Usuario usuario)
         {
-            using (var conn = new SqlConnection(_conectionFactory.ConectionDb()))
+            try
             {
-                conn.Open();
-                string query = $@"insert into Usuario values = (
+                using (var conn = new SqlConnection(_conectionFactory.ConectionDb()))
+                {
+                    conn.Open();
+                    string query = $@"insert into Usuario (Nome, Senha, DataNascimento,
+                                    Contato,Endereco,  NumeroEndereco, CEP, Estado, Cidade, Status ) values  (
                                 '{usuario.Nome}',
-                                '{usuario.Email}',
                                 '{usuario.Senha}',
                                 '{usuario.DataNascimento}',
                                 '{usuario.Contato}',
@@ -37,10 +39,15 @@ namespace SistemaEscolar.Infra.Data.Repository
                                 '{usuario.Estado}',
                                 '{usuario.Cidade}',
                                 '{usuario.Status}')
-)";
-                conn.ExecuteAsync(query);
+";
+                    await conn.ExecuteAsync(query);
+                }
+
             }
-            
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
         public async Task AtualizarAssync(Usuario usuario)
@@ -79,13 +86,13 @@ namespace SistemaEscolar.Infra.Data.Repository
             }
         }
 
-        public Task<IEnumerable<Usuario>> ListarUsuarios()
+        public async Task<IEnumerable<Usuario>> ListarUsuarios()
         {
             using (var conn = new SqlConnection(_conectionFactory.ConectionDb()))
             {
                 string sql = @$"select * from Usuario ";
 
-                return conn.QueryAsync<Usuario>(sql);
+                return conn.QueryAsync<Usuario>(sql).Result;
             }
         }
     }

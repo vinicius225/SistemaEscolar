@@ -21,12 +21,14 @@ namespace SistemaEscolar.Aplication.Services
 
         public Task AdicionarAsync(Usuario usuario)
         {
+            usuario.Senha = GerarSenhaToken(usuario.Senha);
             _usuarioRepository.AdicionarAsync(usuario); 
             return Task.CompletedTask;
         }
 
         public Task AtualizarAssync(Usuario usuario)
         {
+            usuario.Senha = GerarSenhaToken(usuario.Senha);
             _usuarioRepository.AtualizarAssync(usuario);
             return Task.CompletedTask;
         }
@@ -39,8 +41,8 @@ namespace SistemaEscolar.Aplication.Services
 
         public string GerarSenhaToken(string senha)
         {
-            byte[] senhaBytes = Encoding.UTF8.GetBytes(senha) ;
-            byte[] salt = Encoding.UTF8.GetBytes("MelhsorAppDo Brasilhv");
+            byte[] senhaBytes = Encoding.ASCII.GetBytes(senha) ;
+            byte[] salt = Encoding.ASCII.GetBytes("MelhsorAppDo Brasilhv");
             HashAlgorithm algorithm = new SHA256Managed();
 
             byte[] plainTextWithSaltBytes =
@@ -55,7 +57,7 @@ namespace SistemaEscolar.Aplication.Services
                 plainTextWithSaltBytes[senhaBytes.Length + i] = salt[i];
             }
 
-            return Encoding.UTF8.GetString(algorithm.ComputeHash(plainTextWithSaltBytes));
+            return Encoding.ASCII.GetString(algorithm.ComputeHash(plainTextWithSaltBytes));
         }
 
         public  Task<Usuario> ListarUsuarioPorId(int id)
@@ -64,9 +66,9 @@ namespace SistemaEscolar.Aplication.Services
 
         }
 
-        public Task<IEnumerable<Usuario>> ListarUsuarios()
+        public async Task<IEnumerable<Usuario>> ListarUsuarios()
         {
-            return _usuarioRepository.ListarUsuarios();
+            return await _usuarioRepository.ListarUsuarios();
         }
     }
 }

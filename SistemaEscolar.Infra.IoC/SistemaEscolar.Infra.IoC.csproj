@@ -10,4 +10,10 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaEscolar.Aplication\SistemaEscolar.Aplication.csproj" />
+    <ProjectReference Include="..\SistemaEscolar.Domain\SistemaEscolar.Domain.csproj" />
+    <ProjectReference Include="..\SistemaEscolar.Infra.Data\SistemaEscolar.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>

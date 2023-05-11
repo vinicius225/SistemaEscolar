@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SistemaEscolar.Aplication\SistemaEscolar.Aplication.csproj" />
     <ProjectReference Include="..\SistemaEscolar.Domain\SistemaEscolar.Domain.csproj" />
+    <ProjectReference Include="..\SistemaEscolar.Infra.IoC\SistemaEscolar.Infra.IoC.csproj" />
   </ItemGroup>
 
 </Project>

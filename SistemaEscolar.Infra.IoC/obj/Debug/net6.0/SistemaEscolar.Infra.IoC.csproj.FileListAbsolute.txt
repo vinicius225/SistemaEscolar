@@ -10,3 +10,10 @@ C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra
 C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.IoC\obj\Debug\net6.0\refint\SistemaEscolar.Infra.IoC.dll
 C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.IoC\obj\Debug\net6.0\SistemaEscolar.Infra.IoC.pdb
 C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.IoC\obj\Debug\net6.0\ref\SistemaEscolar.Infra.IoC.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.IoC\bin\Debug\net6.0\SistemaEscolar.Aplication.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.IoC\bin\Debug\net6.0\SistemaEscolar.Domain.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.IoC\bin\Debug\net6.0\SistemaEscolar.Infra.Data.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.IoC\bin\Debug\net6.0\SistemaEscolar.Aplication.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.IoC\bin\Debug\net6.0\SistemaEscolar.Domain.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.IoC\bin\Debug\net6.0\SistemaEscolar.Infra.Data.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\C#\SistemaEscolar\SistemaEscolar.Infra.IoC\obj\Debug\net6.0\SistemaEscolar.Infra.IoC.csproj.CopyComplete
