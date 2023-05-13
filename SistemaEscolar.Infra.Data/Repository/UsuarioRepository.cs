@@ -20,17 +20,18 @@ namespace SistemaEscolar.Infra.Data.Repository
             _conectionFactory = conectionFactory;
         }
 
-        public async Task AdicionarAsync(Usuario usuario)
+        public async Task<int> AdicionarAsync(Usuario usuario)
         {
             try
             {
                 using (var conn = new SqlConnection(_conectionFactory.ConectionDb()))
                 {
                     conn.Open();
-                    string query = $@"insert into Usuario (Nome, Senha, DataNascimento,
+                    string query = $@"insert into Usuario (Nome, Senha, Email,  DataNascimento,
                                     Contato,Endereco,  NumeroEndereco, CEP, Estado, Cidade, Status ) values  (
                                 '{usuario.Nome}',
                                 '{usuario.Senha}',
+                                '{usuario.Email}',
                                 '{usuario.DataNascimento}',
                                 '{usuario.Contato}',
                                 '{usuario.Endereco}',
@@ -38,9 +39,9 @@ namespace SistemaEscolar.Infra.Data.Repository
                                 '{usuario.CEP}',
                                 '{usuario.Estado}',
                                 '{usuario.Cidade}',
-                                '{usuario.Status}')
+                                '{usuario.Status}') SELECT SCOPE_IDENTITY()
 ";
-                    await conn.ExecuteAsync(query);
+                    return  conn.ExecuteScalar<int>(query);
                 }
 
             }

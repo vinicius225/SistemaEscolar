@@ -9,7 +9,7 @@ namespace SistemaEscolar.Domain.Interfaces
 {
     public interface IUsuarioRepository
     {
-        Task AdicionarAsync(Usuario usuario);
+        Task<int> AdicionarAsync(Usuario usuario);
         Task AtualizarAssync(Usuario usuario);
         Task DeletarAssync(int id);
         Task<IEnumerable<Usuario>> ListarUsuarios();

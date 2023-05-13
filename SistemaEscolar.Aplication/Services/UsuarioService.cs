@@ -19,11 +19,11 @@ namespace SistemaEscolar.Aplication.Services
             _usuarioRepository = usuarioRepository;
         }
 
-        public Task AdicionarAsync(Usuario usuario)
+        public async Task AdicionarAsync(Usuario usuario)
         {
             usuario.Senha = GerarSenhaToken(usuario.Senha);
-            _usuarioRepository.AdicionarAsync(usuario); 
-            return Task.CompletedTask;
+            int idUsuario =await _usuarioRepository.AdicionarAsync(usuario); 
+
         }
 
         public Task AtualizarAssync(Usuario usuario)
